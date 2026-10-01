@@ -1,0 +1,14 @@
+{
+  "name": "yomud-llc",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node scripts/check.cjs",
+    "start": "python3 -m http.server 4173",
+    "lint": "node --check script.js && node --check scripts/check.cjs && node --check scripts/build.cjs",
+    "preview": "python3 -m http.server 4174 --bind 127.0.0.1 --directory dist"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

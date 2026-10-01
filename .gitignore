@@ -1,0 +1,6 @@
+node_modules/
+.omx/
+.omx-state-locks/
+.omx-state-locks.identity.json
+dist/
+.DS_Store
